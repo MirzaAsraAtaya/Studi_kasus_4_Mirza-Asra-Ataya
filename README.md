@@ -23,3 +23,9 @@ Kelas: B
 7) Baris 53-61, baris ini adalah abris menu 4 yang berfungsi menghapus data penerbit dari dictionary, pada baris 54 user memilih dulu mau menghapus data penerbit atau tidak, kalau Ya, maka program akan menjalankan baris 55 - 58 dan menghapus data penerbit menggunakan del. Jika tidak, maka penghapusan dibatalkan.
     
 8) Baris 64 - 74 baris ini adalah baris menu 5 yang berfungsi untuk keluar dari program atau untuk menghentikan perulangan while True. Kemudian setelah user keluar dari program, akan muncul output data buku setelah dilakukan berbagai perubahan. (dan yap SELESAAAAI)
+
+# Output Program
+
+<img width="646" height="726" alt="Screenshot 2026-09-15 193752" src="https://github.com/user-attachments/assets/466cea87-0408-4964-9c8c-d4e9fd73db1a" />
+
+Output ketika mencoba semua menunya
