@@ -37,21 +37,21 @@ while True:
 
     #Menu 2 untuk menambahkan data penerbit ke dictionary buku
     elif pilihan == 2:
-        penerbit = input("Masukkan nama penerbit buku: ")
+        penerbit = input("Masukkan nama penerbit buku: ") #User memasukkan nama penerbit (value) untuk disimpan ke key "penerbit"
         buku["penerbit"] = penerbit #Menambahkan key "penerbit" dan value penerbit ke dictionary buku
         print("Data penerbit berhasil ditambahkan ke Dictionary.")
         print("")
 
     #Menu 3 untuk mengubah data penulis di dictionary buku
     elif pilihan == 3:
-        penulis = input("Masukkan nama penulis baru: ")
+        penulis = input("Masukkan nama penulis baru: ") #User memasukkan nama penulis baru (value) untuk disimpan ke key "penulis"
         buku["penulis"] = penulis #Mengubah value dari key "penulis" di dictionary buku
         print("Data penulis di Dictionary berhasil diubah.")
         print("")
 
     #Menu 4 untuk menghapus data penerbit dari dictionary buku
     elif pilihan == 4:
-        penerbit = input("Apakah anda ingin menghapus data penerbit? (Ya/Tidak): ")
+        penerbit = input("Apakah anda ingin menghapus data penerbit? (Ya/Tidak): ") #User milih dulu mau hapus atau tidak
         if penerbit == "Ya":
             del buku["penerbit"] #Disini saya pakai perintah del untuk menghapus key "penerbit" dan value nya dari dictionary buku
             print("Data penerbit berhasil dihapus dari Dictionary.")
